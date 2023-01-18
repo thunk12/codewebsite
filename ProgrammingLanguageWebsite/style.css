@@ -1,0 +1,134 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 22px;
+  background-color: rgb(204, 204, 204);
+  color: rgb(0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  z-index: 5;
+}
+
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+p {
+  width: 80%;
+  margin: auto;
+  font-size: 18px;
+}
+
+.white{
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: rgb(196, 255, 233);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(28, 173, 142);
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.toppage {
+  color: #f1f1f1;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.title {
+  padding-bottom: 10px;
+}
+
+svg {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+img {
+  z-index: 3;
+  margin: auto;
+}
+
+.center {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.center2 {
+  display: block;
+  margin: auto;
+}
+
+.dark{
+  color: #333;
+}
+
+.li2{
+  text-align: center;
+}
